@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 70%;
+    padding: 50px;
+    background-color: rgb(200, 9, 9);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo{
+    width:calc(50% - 20px);
+    height: calc((35vw - 20px) / 16 * 9 );
+    background-color: rgb(23, 23, 23);
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ;
+}
+.photo:hover{
+    transform: rotate(3deg) scale(1.07);
+}
+h1{
+    text-align: center;
+    width: 100%;
+    font-size: 48px;
+}
+.photo1{
+    background-image: url(img/1.jpg);
+}
+.photo2{
+    background-image: url(img/2.webp);
+}
+.photo3{
+    background-image: url(img/333px-BMW_750iL_Individual_-_Flickr_-_The_Car_Spy_\(21\).jpg);
+}
+.photo4{
+    background-image: url(img/Alpina_B12_\(E38\)_\(-647921308\).jpg);
+}
+.photo5{
+    background-image: url(img/5.jpeg);
+}
+.photo6{
+    background-image: url(img/Hydrogen_BMW_750hL.JPG);
+}
+.photo7{
+    background-image: url(img/BMW_750iL_\(1\).jpg);
+}
+.photo8{
+    background-image: url(img/BMW_E38_Wien_26_July_2020_JM_\(3\).jpg);
+}
+.photo9{
+    background-image: url(img/original-1qb.jpg);
+}
+.photo10{
+    background-image: url(img/1991-mercedes-benz-600-se-w140.jpg);
+}
+.photo11{
+    background-image: url(img/images.jfif);
+}
+.photo12{
+    background-image: url(img/scale_1200.jfif);
+}
+a{text-decoration: none;
+    background-color: blue;
+    color: aliceblue;
+    padding: 15px 20px 30px 15px;
+    border-radius: 50px;
+    border: 5px solid aliceblue;
+    transition: 0.5s ease-in-out all;
+    margin-left: 630px;
+}
+a:hover{
+    background-color: rgb(190, 3, 3);
+    color: rgb(23, 72, 2);
+}
+
+
+
+
+
+
+
+
+
+
